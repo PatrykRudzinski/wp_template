@@ -1,0 +1,11 @@
+zadanie 32
+
+1. start 18.03
+2. html/css/js (w tym jquery), bootstrap 3.
+3. rwd obowiazkowo 
+4. mile widziane fajne efekty. 
+5. fajna stronka: http://littlesnippets.net/
+6. mo¿na zrobiæ 1, 2 lub 3 widoczki.
+
+
+
