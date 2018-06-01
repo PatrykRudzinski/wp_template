@@ -7,5 +7,9 @@ zadanie 32
 5. fajna stronka: http://littlesnippets.net/
 6. mo¿na zrobiæ 1, 2 lub 3 widoczki.
 
+grid 12 1770px 30px
+
+catamaran 
+
 
 

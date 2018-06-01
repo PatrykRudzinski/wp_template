@@ -14,8 +14,6 @@ function showError(err) {
         title: "Gulp error in " + err.plugin,
         message:  err.message
     })(err);
-
-    // console.log(colors.red(err.toString()));
     this.emit('end');
 }
 
