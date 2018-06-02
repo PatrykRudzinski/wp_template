@@ -1,0 +1,23 @@
+html {
+  font-size: calc(10px + 0.12vw);
+}
+
+body {
+  font-family: 'Catamaran', sans-serif;
+  overflow-x: hidden;
+}
+
+.container {
+  max-width: 1083px;
+  margin: 0 auto;
+}
+
+.navigation-list {
+  list-style: none;
+  display: flex;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}

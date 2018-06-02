@@ -1,6 +1,6 @@
-$columns : 12;
-$gap : 30px;
-$bp : 100000px;
+$columns : 10;
+$gap : 20px;
+$bp : 10px;
 
 .container {
   padding-left: $gap;
@@ -21,6 +21,7 @@ $bp : 100000px;
       padding-right: $gap;
       margin-bottom: 2*$gap;
       box-sizing: border-box;
+      background-color: #31A9E7;
     }
 
     @media (min-width:#{$bp}) {

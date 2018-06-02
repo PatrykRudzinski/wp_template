@@ -1,0 +1,53 @@
+.slider {
+  padding-top: 15px;
+
+  .owl-carousel {
+    width: 100%;
+
+    .slider__image {
+      background-repeat: no-repeat;
+      background-size: cover;
+      height: 515px;
+      width: 100%;
+      position: relative;
+
+      .slider__textfield {
+        background-color: #fff;
+        position: absolute;
+        padding-right: 20px;
+        width: 50%;
+        left: 0;
+        bottom: 0;
+
+        .article-author {
+          font-size: 1.25rem;
+          margin-top: 10px;
+          margin-bottom: 10px;
+        }
+
+        .article-text {
+          font-size: 2rem;
+          font-weight: 700;
+          line-height: 30px;
+          margin-top: 0;
+        }
+      }
+    }
+
+    .owl-prev {
+      display: none;
+    }
+
+    .owl-next > span{
+      position: absolute;
+      font-size: 0;
+      color: transparent;
+      right: 50px;
+      top: 50%;
+      transform: translateY(-50%);
+      height: 60px;
+      width: 60px;
+      background: url("../img/slider/arrow.png") no-repeat center;
+    }
+  }
+}

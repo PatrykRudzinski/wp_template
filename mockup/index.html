@@ -3,76 +3,73 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport"
-              content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+              content="width=device-width, user-scalable=yes, initial-scale=1.0, maximum-scale=2.0, minimum-scale=1.0">
         <meta http-equiv="X-UA-Compatible" content="ie=edge">
         <title>Document</title>
         <link href="https://fonts.googleapis.com/css?family=Catamaran:100,200,300,400,500,600,700,800,900&amp;subset=latin-ext" rel="stylesheet">
-        <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+        <link rel="stylesheet" href="css/owl.carousel.min.css">
         <link rel="stylesheet" href="css/main.css">
     </head>
     <body>
 
         <header class="header">
-            <nav class="header__subnavigation">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-12-12">
-                            <ul class="submenu">
-                                <li>About</li>
-                                <li>Advertise</li>
-                                <li>Privacy and Policy</li>
-                                <li>Terms and Conditions</li>
-                                <li>Contact</li>
-                            </ul>
-                            <ul class="header__social-media">
-                                <li><img src="img/sub_header/fb.png" alt=""></li>
-                                <li><img src="img/sub_header/ig.png" alt=""></li>
-                                <li><img src="img/sub_header/tw.png" alt=""></li>
-                                <li><img src="img/sub_header/gp.png" alt=""></li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-            </nav>
-            <div class="header__logo">
-                <div class="container">
-                    <img src="img/logo/logo.png" alt="">
-                </div>
+            <div class="header__subnavigation">
+                    <nav class="container">
+                        <ul class="navigation-list header_submenu submenu">
+                            <li><a href="#">About</a></li>
+                            <li><a href="#">Advertise</a></li>
+                            <li><a href="#">Privacy and Policy</a></li>
+                            <li><a href="#">Terms and Conditions</a></li>
+                            <li><a href="#">Contact</a></li>
+                        </ul>
+                        <ul class="navigation-list social-media">
+                            <li><a href="#"><img src="img/sub_header/fb.png" alt=""></a></li>
+                            <li><a href="#"><img src="img/sub_header/ig.png" alt=""></a></li>
+                            <li><a href="#"><img src="img/sub_header/tw.png" alt=""></a></li>
+                            <li><a href="#"><img src="img/sub_header/gp.png" alt=""></a></li>
+                        </ul>
+                    </nav>
             </div>
-            <nav class="header__navigation">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-12-12">
-                            <ul class="header__menu">
-                                <li>Home</li>
-                                <li>Culture</li>
-                                <li>Entertainment</li>
-                                <li>Politics</li>
-                                <li>Sport</li>
-                                <li>Worldwide</li>
-                                <li>Innovation</li>
-                                <li>Education</li>
-                                <li><img src="img/main_menu/search.png" alt=""></li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-            </nav>
+            <div class="header__logo">
+                    <img src="img/logo/logo.png" alt="">
+            </div>
+            <div class="header__navigation">
+                <nav class="container">
+                    <ul class="navigation-list header__menu" id="header__menu">
+                        <li class="header__menu--active"><a href="#">Home</a></li>
+                        <li><a href="#">Culture</a></li>
+                        <li><a href="#">Entertainment</a></li>
+                        <li><a href="#">Politics</a></li>
+                        <li><a href="#">Sport</a></li>
+                        <li><a href="#">Worldwide</a></li>
+                        <li><a href="#">Innovation</a></li>
+                        <li><a href="#">Education</a></li>
+                        <li><img src="img/main_menu/search.png" alt=""></li>
+                    </ul>
+                    <span class="header__underline" id="header__underline"></span>
+                </nav>
+            </div>
         </header>
 
         <section class="slider">
-            <div class="container">
-                <div class="slider__slick">
-                    <div class="slider__image"></div>
-                    <div class="slider__image"></div>
-                    <div class="slider__image"></div>
+            <div class="owl-carousel">
+                <div class="slider__image" style="background-image: url('img/slider/1.png')">
+                    <article class="container slider__textfield">
+                        <p class="article-author">By Clark Kent</p>
+                        <p class="article-text">Lorem ipsum , consectetur adipisicing elit. Dignissimos dolorem enim et facere fuga ipsam voluptatum?</p>
+                    </article>
                 </div>
-                <article class="slider__textfield">
-                    <p class="article-author">By Clark Kent</p>
-                    <p class="article-text"></p>
-                </article>
-                <div class="slider__arrow--right">
-                    <img src="img/slider/arrow.png" alt="">
+                <div class="slider__image" style="background-image: url('img/slider/2.jpg')">
+                    <article class="container slider__textfield">
+                        <p class="article-author">By Clark Kent</p>
+                        <p class="article-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dignissimos dolorem enim et facere fug sequi temporibus voluptatum?</p>
+                    </article>
+                </div>
+                <div class="slider__image" style="background-image: url('img/slider/3.jpeg')">
+                    <article class="container slider__textfield">
+                        <p class="article-author">By Clark Kent</p>
+                        <p class="article-text"> sit amet, consectetur adipisicing elit. Dignissimos dolorem enim et facere fuga ipsam, odit pariatur ut! Aperiam culpa cupiditate distinctio dolorem facere facilis, obcaecati rem sequi temporibus voluptatum?</p>
+                    </article>
                 </div>
             </div>
         </section>
@@ -81,7 +78,7 @@
             <div class="container">
                 <h2>Latest stories</h2>
                 <div class="row">
-                    <div class="col-4-12">
+                    <div class="col-3-10">
                         <div class="article-preview">
                             <img src="img/photos/forest.png" alt="">
                             <p class="article-preview__summary">
@@ -94,7 +91,7 @@
                             </p>
                         </div>
                     </div>
-                    <div class="col-4-12">
+                    <div class="col-3-10">
                         <div class="article-preview">
                             <img src="img/photos/city.png" alt="">
                             <p class="article-preview__summary">
@@ -107,7 +104,7 @@
                             </p>
                         </div>
                     </div>
-                    <div class="col-4-12">
+                    <div class="col-3-10">
                         <div class="article-preview">
                             <img src="img/photos/runner.png" alt="">
                             <p class="article-preview__summary">
@@ -122,7 +119,7 @@
                     </div>
                 </div>
                 <div class="row">
-                    <div class="col-4-12">
+                    <div class="col-3-10">
                         <div class="article-preview">
                             <img src="img/photos/kindman.png" alt="">
                             <p class="article-preview__summary">
@@ -135,7 +132,7 @@
                             </p>
                         </div>
                     </div>
-                    <div class="col-4-12">
+                    <div class="col-3-10">
                         <div class="article-preview">
                             <img src="img/photos/nakedman.png" alt="">
                             <p class="article-preview__summary">
@@ -148,7 +145,7 @@
                             </p>
                         </div>
                     </div>
-                    <div class="col-4-12">
+                    <div class="col-3-10">
                         <div class="article-preview">
                             <img src="img/photos/oldman.png" alt="">
                             <p class="article-preview__summary">
@@ -169,17 +166,17 @@
             <div class="container">
                 <h2>In pictures</h2>
                 <div class="row">
-                    <div class="col-4-12">
+                    <div class="col-3-10">
                         <div class="article-preview--notext">
                             <img src="img/photos/maninhat.png" alt="">
                         </div>
                     </div>
-                    <div class="col-4-12">
+                    <div class="col-3-10">
                         <div class="article-preview--notext">
                             <img src="img/photos/shooter.png" alt="">
                         </div>
                     </div>
-                    <div class="col-4-12">
+                    <div class="col-3-10">
                         <div class="article-preview--notext">
                             <img src="img/photos/banner.png" alt="">
                         </div>
@@ -191,11 +188,11 @@
         <section class="mixed">
             <div class="container">
                 <div class="row">
-                    <div class="col-8-12">
+                    <div class="col-7-10">
                         <div class="container">
                             <h2>Economy</h2>
                             <div class="row">
-                                <div class="col-6-12">
+                                <div class="col-5-10">
                                     <div class="article-preview">
                                         <img src="img/photos/book.png" alt="">
                                         <p class="article-preview__summary">
@@ -208,7 +205,7 @@
                                         </p>
                                     </div>
                                 </div>
-                                <div class="col-6-12">
+                                <div class="col-5-10">
                                     <div class="article-preview">
                                         <img src="img/photos/poorman.png" alt="">
                                         <p class="article-preview__summary">
@@ -223,7 +220,7 @@
                                 </div>
                             </div>
                             <div class="row">
-                                <div class="col-6-12">
+                                <div class="col-5-10">
                                     <div class="article-preview">
                                         <img src="img/photos/maninsuit.png" alt="">
                                         <p class="article-preview__summary">
@@ -236,7 +233,7 @@
                                         </p>
                                     </div>
                                 </div>
-                                <div class="col-6-12">
+                                <div class="col-5-10">
                                     <div class="article-preview">
                                         <img src="img/photos/cranes.png" alt="">
                                         <p class="article-preview__summary">
@@ -252,11 +249,11 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-4-12">
+                    <div class="col-3-10">
                         <div class="container">
                             <h2>Health</h2>
                             <div class="row">
-                                <div class="col-12-12">
+                                <div class="col-10-10">
                                     <div class="article-preview--nophoto">
                                         <p class="article-preview__summary">
                                             Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequuntur ea eos impedit iste placeat provident quia vel voluptatem.
@@ -270,7 +267,7 @@
                                 </div>
                             </div>
                             <div class="row">
-                                <div class="col-12-12">
+                                <div class="col-10-10">
                                     <div class="article-preview--nophoto">
                                         <p class="article-preview__summary">
                                             Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequuntur ea eos impedit iste placeat provident quia vel voluptatem.
@@ -284,7 +281,7 @@
                                 </div>
                             </div>
                             <div class="row">
-                                <div class="col-12-12">
+                                <div class="col-10-10">
                                     <div class="article-preview--nophoto">
                                         <p class="article-preview__summary">
                                             Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequuntur ea eos impedit iste placeat provident quia vel voluptatem.
@@ -324,7 +321,7 @@
         </footer>
 
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-        <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+        <script src="js/owl.carousel.min.js"></script>
         <script src="js/main.js"></script>
     </body>
 </html>
