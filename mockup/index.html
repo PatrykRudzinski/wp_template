@@ -4,55 +4,327 @@
         <meta charset="UTF-8">
         <meta name="viewport"
               content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-        <!--do poprawki viewport-->
         <meta http-equiv="X-UA-Compatible" content="ie=edge">
         <title>Document</title>
+        <link href="https://fonts.googleapis.com/css?family=Catamaran:100,200,300,400,500,600,700,800,900&amp;subset=latin-ext" rel="stylesheet">
+        <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
         <link rel="stylesheet" href="css/main.css">
     </head>
     <body>
-        <div class="container">
+
+        <header class="header">
+            <nav class="header__subnavigation">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-12-12">
+                            <ul class="submenu">
+                                <li>About</li>
+                                <li>Advertise</li>
+                                <li>Privacy and Policy</li>
+                                <li>Terms and Conditions</li>
+                                <li>Contact</li>
+                            </ul>
+                            <ul class="header__social-media">
+                                <li><img src="img/sub_header/fb.png" alt=""></li>
+                                <li><img src="img/sub_header/ig.png" alt=""></li>
+                                <li><img src="img/sub_header/tw.png" alt=""></li>
+                                <li><img src="img/sub_header/gp.png" alt=""></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </nav>
+            <div class="header__logo">
+                <div class="container">
+                    <img src="img/logo/logo.png" alt="">
+                </div>
+            </div>
+            <nav class="header__navigation">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-12-12">
+                            <ul class="header__menu">
+                                <li>Home</li>
+                                <li>Culture</li>
+                                <li>Entertainment</li>
+                                <li>Politics</li>
+                                <li>Sport</li>
+                                <li>Worldwide</li>
+                                <li>Innovation</li>
+                                <li>Education</li>
+                                <li><img src="img/main_menu/search.png" alt=""></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </nav>
+        </header>
+
+        <section class="slider">
+            <div class="container">
+                <div class="slider__slick">
+                    <div class="slider__image"></div>
+                    <div class="slider__image"></div>
+                    <div class="slider__image"></div>
+                </div>
+                <article class="slider__textfield">
+                    <p class="article-author">By Clark Kent</p>
+                    <p class="article-text"></p>
+                </article>
+                <div class="slider__arrow--right">
+                    <img src="img/slider/arrow.png" alt="">
+                </div>
+            </div>
+        </section>
+
+        <section class="latest">
+            <div class="container">
+                <h2>Latest stories</h2>
                 <div class="row">
-                <div class="col-12-12"><i></i></div>
+                    <div class="col-4-12">
+                        <div class="article-preview">
+                            <img src="img/photos/forest.png" alt="">
+                            <p class="article-preview__summary">
+                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequuntur ea eos impedit iste placeat provident quia vel voluptatem.
+                            </p>
+                            <p class="article-preview__author">
+                                <span>By Clark Kent</span>
+                                <span>45 comments</span>
+                                <span>14 Feb 2017</span>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-4-12">
+                        <div class="article-preview">
+                            <img src="img/photos/city.png" alt="">
+                            <p class="article-preview__summary">
+                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequuntur ea eos impedit iste placeat provident quia vel voluptatem.
+                            </p>
+                            <p class="article-preview__author">
+                                <span>By Clark Kent</span>
+                                <span>45 comments</span>
+                                <span>14 Feb 2017</span>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-4-12">
+                        <div class="article-preview">
+                            <img src="img/photos/runner.png" alt="">
+                            <p class="article-preview__summary">
+                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequuntur ea eos impedit iste placeat provident quia vel voluptatem.
+                            </p>
+                            <p class="article-preview__author">
+                                <span>By Clark Kent</span>
+                                <span>45 comments</span>
+                                <span>14 Feb 2017</span>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-4-12">
+                        <div class="article-preview">
+                            <img src="img/photos/kindman.png" alt="">
+                            <p class="article-preview__summary">
+                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequuntur ea eos impedit iste placeat provident quia vel voluptatem.
+                            </p>
+                            <p class="article-preview__author">
+                                <span>By Clark Kent</span>
+                                <span>45 comments</span>
+                                <span>14 Feb 2017</span>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-4-12">
+                        <div class="article-preview">
+                            <img src="img/photos/nakedman.png" alt="">
+                            <p class="article-preview__summary">
+                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequuntur ea eos impedit iste placeat provident quia vel voluptatem.
+                            </p>
+                            <p class="article-preview__author">
+                                <span>By Clark Kent</span>
+                                <span>45 comments</span>
+                                <span>14 Feb 2017</span>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-4-12">
+                        <div class="article-preview">
+                            <img src="img/photos/oldman.png" alt="">
+                            <p class="article-preview__summary">
+                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequuntur ea eos impedit iste placeat provident quia vel voluptatem.
+                            </p>
+                            <p class="article-preview__author">
+                                <span>By Clark Kent</span>
+                                <span>45 comments</span>
+                                <span>14 Feb 2017</span>
+                            </p>
+                        </div>
+                    </div>
+                </div>
             </div>
-            <div class="row">
-                <div class="col-6-12"><i></i></div>
-                <div class="col-6-12"><i></i></div>
-            </div>
-            <div class="row">
-                <div class="col-4-12"><i></i></div>
-                <div class="col-4-12"><i></i></div>
-                <div class="col-4-12"><i></i></div>
-            </div>
-            <div class="row">
-                <div class="col-3-12"><i></i></div>
-                <div class="col-3-12"><i></i></div>
-                <div class="col-3-12"><i></i></div>
-                <div class="col-3-12"><i></i></div>
-            </div>
-            <div class="row">
-                <div class="col-2-12"><i></i></div>
-                <div class="col-2-12"><i></i></div>
-                <div class="col-2-12"><i></i></div>
-                <div class="col-2-12"><i></i></div>
-                <div class="col-2-12"><i></i></div>
-                <div class="col-2-12"><i></i></div>
-            </div>
-            <div class="row">
-                <div class="col-1-12"><i></i></div>
-                <div class="col-1-12"><i></i></div>
-                <div class="col-1-12"><i></i></div>
-                <div class="col-1-12"><i></i></div>
-                <div class="col-1-12"><i></i></div>
-                <div class="col-1-12"><i></i></div>
-                <div class="col-1-12"><i></i></div>
-                <div class="col-1-12"><i></i></div>
-                <div class="col-1-12"><i></i></div>
-                <div class="col-1-12"><i></i></div>
-                <div class="col-1-12"><i></i></div>
-                <div class="col-1-12"><i></i></div>
-            </div>
-        </div>
+        </section>
 
+        <section class="pictures">
+            <div class="container">
+                <h2>In pictures</h2>
+                <div class="row">
+                    <div class="col-4-12">
+                        <div class="article-preview--notext">
+                            <img src="img/photos/maninhat.png" alt="">
+                        </div>
+                    </div>
+                    <div class="col-4-12">
+                        <div class="article-preview--notext">
+                            <img src="img/photos/shooter.png" alt="">
+                        </div>
+                    </div>
+                    <div class="col-4-12">
+                        <div class="article-preview--notext">
+                            <img src="img/photos/banner.png" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
 
+        <section class="mixed">
+            <div class="container">
+                <div class="row">
+                    <div class="col-8-12">
+                        <div class="container">
+                            <h2>Economy</h2>
+                            <div class="row">
+                                <div class="col-6-12">
+                                    <div class="article-preview">
+                                        <img src="img/photos/book.png" alt="">
+                                        <p class="article-preview__summary">
+                                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequuntur ea eos impedit iste placeat provident quia vel voluptatem.
+                                        </p>
+                                        <p class="article-preview__author">
+                                            <span>By Clark Kent</span>
+                                            <span>45 comments</span>
+                                            <span>14 Feb 2017</span>
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="col-6-12">
+                                    <div class="article-preview">
+                                        <img src="img/photos/poorman.png" alt="">
+                                        <p class="article-preview__summary">
+                                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequuntur ea eos impedit iste placeat provident quia vel voluptatem.
+                                        </p>
+                                        <p class="article-preview__author">
+                                            <span>By Clark Kent</span>
+                                            <span>45 comments</span>
+                                            <span>14 Feb 2017</span>
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-6-12">
+                                    <div class="article-preview">
+                                        <img src="img/photos/maninsuit.png" alt="">
+                                        <p class="article-preview__summary">
+                                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequuntur ea eos impedit iste placeat provident quia vel voluptatem.
+                                        </p>
+                                        <p class="article-preview__author">
+                                            <span>By Clark Kent</span>
+                                            <span>45 comments</span>
+                                            <span>14 Feb 2017</span>
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="col-6-12">
+                                    <div class="article-preview">
+                                        <img src="img/photos/cranes.png" alt="">
+                                        <p class="article-preview__summary">
+                                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequuntur ea eos impedit iste placeat provident quia vel voluptatem.
+                                        </p>
+                                        <p class="article-preview__author">
+                                            <span>By Clark Kent</span>
+                                            <span>45 comments</span>
+                                            <span>14 Feb 2017</span>
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-4-12">
+                        <div class="container">
+                            <h2>Health</h2>
+                            <div class="row">
+                                <div class="col-12-12">
+                                    <div class="article-preview--nophoto">
+                                        <p class="article-preview__summary">
+                                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequuntur ea eos impedit iste placeat provident quia vel voluptatem.
+                                        </p>
+                                        <p class="article-preview__author">
+                                            <span>By Clark Kent</span>
+                                            <span>45 comments</span>
+                                            <span>14 Feb 2017</span>
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-12-12">
+                                    <div class="article-preview--nophoto">
+                                        <p class="article-preview__summary">
+                                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequuntur ea eos impedit iste placeat provident quia vel voluptatem.
+                                        </p>
+                                        <p class="article-preview__author">
+                                            <span>By Clark Kent</span>
+                                            <span>45 comments</span>
+                                            <span>14 Feb 2017</span>
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-12-12">
+                                    <div class="article-preview--nophoto">
+                                        <p class="article-preview__summary">
+                                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequuntur ea eos impedit iste placeat provident quia vel voluptatem.
+                                        </p>
+                                        <p class="article-preview__author">
+                                            <span>By Clark Kent</span>
+                                            <span>45 comments</span>
+                                            <span>14 Feb 2017</span>
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <footer class="footer">
+            <div class="container">
+                <div class="footer__logo">
+                    <img src="img/logo/logo.png" alt="">
+                </div>
+                <div class="footer__bar">
+                    <nav class="footer__navigation">
+                        <ul class="submenu">
+                            <li>About</li>
+                            <li>Advertise</li>
+                            <li>Privacy and Policy</li>
+                            <li>Terms and Conditions</li>
+                            <li>Subscribe</li>
+                        </ul>
+                    </nav>
+                    <p>Copyright <span>&copy;</span> 2017 Clear News. Photos by Pexels and Pixabay. Designed by <span>Diego Valencia</span></p>
+                </div>
+            </div>
+        </footer>
+
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+        <script src="js/main.js"></script>
     </body>
 </html>
